@@ -46,7 +46,7 @@ class BTNTEXTApp(App):
                     height = 100) 
   
         # Adding Button and styling
-        f = Button(text ="Push Me !", 
+        f = Button(text ="Carnet!", 
                    font_size ="20sp", 
                    background_color =(1, 1, 1, 1), 
                    color =(1, 1, 1, 1) )
