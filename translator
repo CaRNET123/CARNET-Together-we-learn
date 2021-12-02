@@ -1,0 +1,11 @@
+#pip install googletrans==3.1.0a0
+from googletrans import Translator
+translator = Translator()
+print("enter the statement :")
+statement= input('')
+print("af:afrikaans \n sq:albanian  \n ar:arabic \n hy:armenian \n az:azerbaijani  \n be:belarusian \n bn:bengaali")
+print("\n bs:bosnian \n bg:bulgarian \n ca:catalan \n zh-cn:chinese(simplified) \n zh-tw:chinese(traditional) \n en:english \n fr:french \n de:german \n el:greek \n gu:gujarati \n hu:hebrew \n hi:hindi")
+print("\n ja:japanese \n kn:kannada \n ml:malayalam \n ta:tamil \n es:spanish")
+dest=input(print("enter the language of your choice :"))
+out = translator.translate(statement, dest)
+print(out.text)
